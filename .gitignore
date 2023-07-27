@@ -1,0 +1,6 @@
+include/conn.inc.php
+include/password.inc.php
+uploads/*
+wx/*
+data/
+coutdata
