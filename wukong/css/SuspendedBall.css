@@ -1,0 +1,287 @@
+﻿.SuspendedBall {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #cb434c;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    z-index: 999;
+    /*最高的层级*/
+    top: 200px;
+    left: 0px;
+    display: none;
+}
+
+.SuspendedBall > div {
+    width: 46px;
+    height: 46px;
+    margin: 2px;
+    background: url("../images/tt.png")no-repeat;
+    background-size: 100% 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    .SuspendedBall {
+        display: block;
+    }
+}
+
+@keyframes SuspendedBallToLeft {
+    100% {
+        left: 0px;
+    }
+}
+
+@-webkit-keyframes SuspendedBallToLeft {
+    100% {
+        left: 0px;
+    }
+}
+
+@-moz-keyframes SuspendedBallToLeft {
+    100% {
+        left: 0px;
+    }
+}
+
+.ToLeft {
+    animation: SuspendedBallToLeft 1s normal;
+    -moz-animation: SuspendedBallToLeft 1s normal;
+    /* Firefox */
+    -webkit-animation: SuspendedBallToLeft 1s normal;
+    /* Safari 和 Chrome */
+    animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    /* Safari 和 Chrome */
+    -webkit-animation-iteration-count: 1;
+    /* Safari 和 Chrome */
+    animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes SuspendedBallToTop {
+    100% {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes SuspendedBallToTop {
+    100% {
+        top: 0px;
+    }
+}
+
+@-moz-keyframes SuspendedBallToTop {
+    100% {
+        top: 0px;
+    }
+}
+
+.ToTop {
+    animation: SuspendedBallToTop 1s normal;
+    -moz-animation: SuspendedBallToTop 1s normal;
+    /* Firefox */
+    -webkit-animation: SuspendedBallToTop 1s normal;
+    /* Safari 和 Chrome */
+    animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    /* Safari 和 Chrome */
+    -webkit-animation-iteration-count: 1;
+    /* Safari 和 Chrome */
+    animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes SuspendedBallToBottom {
+    100% {
+        top: calc(100% - 50px);
+        top: -webkit-calc(100% - 50px);
+        top: -moz-calc(100% - 50px);
+    }
+}
+
+@-webkit-keyframes SuspendedBallToBottom {
+    100% {
+        top: calc(100% - 50px);
+        top: -webkit-calc(100% - 50px);
+        top: -moz-calc(100% - 50px);
+    }
+}
+
+@-moz-keyframes SuspendedBallToBottom {
+    100% {
+        top: calc(100% - 50px);
+        top: -webkit-calc(100% - 50px);
+        top: -moz-calc(100% - 50px);
+    }
+}
+
+.ToBottom {
+    animation: SuspendedBallToBottom 1s normal;
+    -moz-animation: SuspendedBallToBottom 1s normal;
+    /* Firefox */
+    -webkit-animation: SuspendedBallToBottom 1s normal;
+    /* Safari 和 Chrome */
+    animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    /* Safari 和 Chrome */
+    -webkit-animation-iteration-count: 1;
+    /* Safari 和 Chrome */
+    animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes SuspendedBallToRight {
+    100% {
+        left: calc(100% - 50px);
+        left: -webkit-calc(100% - 50px);
+        left: -moz-calc(100% - 50px);
+    }
+}
+
+@-webkit-keyframes SuspendedBallToRight {
+    100% {
+        left: calc(100% - 50px);
+        left: -webkit-calc(100% - 50px);
+        left: -moz-calc(100% - 50px);
+    }
+}
+
+@-moz-keyframes SuspendedBallToRight {
+    100% {
+        left: calc(100% - 50px);
+        left: -webkit-calc(100% - 50px);
+        left: -moz-calc(100% - 50px);
+    }
+}
+
+.ToRight {
+    animation: SuspendedBallToRight 0.5s normal;
+    -moz-animation: SuspendedBallToRight 0.5s normal;
+    /* Firefox */
+    -webkit-animation: SuspendedBallToRight 0.5s normal;
+    /* Safari 和 Chrome */
+    animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    /* Safari 和 Chrome */
+    -webkit-animation-iteration-count: 1;
+    /* Safari 和 Chrome */
+    animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.BallBox {
+    position: fixed;
+    z-index: 999;
+    top: calc(50% - 120px);
+    left: calc(50% - 150px);
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+    height: 180px;
+    display: none;
+     -webkit-animation-name: bounceIn;
+          animation-name: bounceIn;
+  -webkit-animation-duration: .75s;
+          animation-duration: .75s;
+}
+
+.BallBox > .Bg {
+    position: absolute;
+    z-index: 998;
+    width: 300px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+
+.BallBox > .BallBoxInfo {
+    margin: 10px;
+    position: absolute;
+    z-index: 999;
+    width: 280px;
+    height: 150px;
+
+}
+@-webkit-keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+
+
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+            transform: scale3d(.9, .9, .9);
+  }
+
+
+
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+            transform: scale3d(.97, .97, .97);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+            transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+            transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+            transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+            transform: scale3d(.97, .97, .97);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+

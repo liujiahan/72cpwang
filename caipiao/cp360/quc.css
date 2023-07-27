@@ -1,0 +1,47 @@
+
+/*quc-licai-wrapper*/
+.quc-licai-wrapper{box-shadow:none;font-family:'Microsoft Yahei';}
+.quc-licai-wrapper .quc-panel-hd{height: 40px;background-image:none;background-color:#e65045; min-width:480px;  _width:480px;}
+.quc-licai-wrapper .quc-panel-hd .quc-panel-title{float: left;line-height:40px;color:#fff; background:none;margin:0;padding:0 0 0 20px;height:auto;min-width:inherit;}
+.quc-licai-wrapper .quc-panel-hd .quc-panel-close{top:14px;right:20px;width:14px;height:13px;padding-top:0;background:url(/static/v2/img/ui-ico.png) no-repeat 0 -288px; _background: url(/2015/build/img/g/ui-ico-ie6.png) no-repeat 0 -288px; cursor:pointer;}
+.quc-licai-wrapper .quc-panel-hd .quc-panel-close:hover{background:url(/static/v2/img/ui-ico.png) no-repeat 0 -288px; _background: url(/static/v2/img/ui-ico-ie6.png) no-repeat 0 -288px;}
+.quc-licai-wrapper .quc-panel-bd{background:#fff;border: 1px solid #e6e6e6;}
+.quc-licai-wrapper .quc-mod-sign-in .quc-label{width:90px;line-height:36px;font-size:14px;  margin-right:20px;}
+.quc-licai-wrapper .quc-input-bg{height:auto;background:none;width:270px;}
+.quc-licai-wrapper .quc-input-middle .quc-input-bg{width:auto}
+.quc-licai-wrapper .quc-mod-sign-in .quc-main{width:448px}
+.quc-licai-wrapper .quc-input{padding: 8px 9px 7px; margin:0;line-height:18px;height:auto;border: 1px solid #e5e5e5;background: #fff;border-radius: 2px;}
+.quc-licai-wrapper .quc-input:focus{border-color:#ccc;}
+.quc-licai-wrapper .quc-input-captcha{width:103px;}
+.quc-licai-wrapper .quc-mod-sign-in .quc-field{margin-bottom:20px;}
+.quc-licai-wrapper .quc-mod-sign-in .quc-field-keep-alive{padding-left:110px;color:#999;display:none;}
+.quc-licai-wrapper .quc-mod-sign-in .quc-field-submit{padding-left:110px;margin-bottom: 10px;background-image:none}
+.quc-licai-wrapper .quc-button,.quc-licai-wrapper .quc-button:active{height: 39px;border-bottom:3px solid #b93838;background: #e65045;border-radius: 4px;line-height: 38px;font-size: 16px;font-weight: 700;color: #fff;text-indent:0;}
+.quc-licai-wrapper .quc-button:hover{background-color:#cf483e;color:#fff;}
+.quc-licai-wrapper .quc-mod-sign-in .quc-footer {padding: 0 0 17px 142px;text-align: left;border-top:none;}
+.quc-licai-wrapper .quc-mod-sign-in .quc-footer:before{display:none;}
+.quc-licai-wrapper .quc-mod-sign-in .quc-tip-wrapper{ padding: 10px 0 0 140px;}
+
+.quc-licai-wrapper .quc-mod-sign-up{padding:20px 40px 0;}
+.quc-licai-wrapper .quc-mod-sign-up .quc-left-bar{float:none;  width:auto;background-color:#fff;}
+.quc-licai-wrapper .quc-mod-sign-up .quc-main{float:none;padding: 0 0 20px 0;border-left:none;background: #fff;box-shadow:none; width:400px;}
+.quc-licai-wrapper .quc-mod-sign-up .quc-left-bar .quc-sign-up-type{height: 31px;border-bottom: 2px solid #e6e6e6;  border-top:none;  margin-top:0;}
+.quc-licai-wrapper .quc-mod-sign-up .quc-left-bar .quc-sign-up-type li{float: left;  height:auto;width: auto;background:none;}
+.quc-licai-wrapper .quc-mod-sign-up .quc-left-bar .quc-sign-up-type li a{width: auto; height: auto;border:none;  background:none;box-shadow:none;  display: block; padding: 0 20px; line-height: 31px; font-size: 16px;}
+.quc-licai-wrapper .quc-mod-sign-up .quc-left-bar .quc-icon{display:none;}
+.quc-licai-wrapper .quc-mod-sign-up .quc-left-bar .quc-sign-up-type .quc-current a{border-bottom: 2px solid #e65045;color: #e65045;}
+.quc-licai-wrapper .quc-input-middle .quc-input{width: 133px;}
+.quc-licai-wrapper .quc-mod-sign-up .quc-get-sms-token{  width: 136px;display: inline-block;vertical-align: middle;height: 34px;padding: 0;border: 1px solid #e6e6e6;  background: #f9f9f9;color: #666;line-height: 34px;font-size: 14px;border-radius: 4px;font-weight:normal;  margin: 0 4px 0 3px;}
+.quc-licai-wrapper .quc-mod-sign-up .quc-input-sms-token{ width: 105px}
+.quc-licai-wrapper .quc-mod-sign-up .quc-login{  margin: 10px 0 0 75px;}
+.quc-licai-wrapper .quc-mod-sign-up .quc-get-sms-token:hover{background:#f2f2f2;color:#666}
+
+.quc-licai-wrapper .quc-input-short .quc-input-bg{width:auto}
+.quc-licai-wrapper .quc-mod-sign-up .quc-field .quc-input-bg{  margin: 5px 0 5px;}
+
+.quc-licai-wrapper  .quc-mod-active-email .quc-send-result,
+.quc-licai-wrapper  .quc-mod-active-email .quc-email-address,
+.quc-licai-wrapper  .quc-mod-active-email .quc-tip,
+.quc-licai-wrapper  .quc-mod-active-email .quc-button-wrapper{text-align:center;}
+.quc-licai-wrapper  .quc-mod-sign-up .quc-field-sms-token .quc-mobile-tip{margin-right:63px;}
+

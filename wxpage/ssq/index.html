@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>矩阵过滤</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./swiper.css">
+    <link rel="stylesheet" href="./font-awesome.css">
+    <link rel="stylesheet" href="./matrix.css">
+</head>
+<body>
+<div class="container">
+    <div class="select_ball">
+        <div class="red_top">红球：<span><span class="geshu">个&nbsp;&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></span><select class="redBall form-control mr10 col-xs-2" name="sel" id="sel_red">
+                <option value="8" selected="selected">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select></span>
+            <button class="btn btn-danger" id="jx_red_ball">机选红球</button>
+            <a href="javascript:void%20(0)" id="empty_red_ball">清空</a>
+        </div>
+        <div class="red_cont">
+            <span class="red_ball">01</span><span class="red_ball">02</span><span class="red_ball active">03</span><span class="red_ball active">04</span><span class="red_ball">05</span><span class="red_ball">06</span><span class="red_ball">07</span><span class="red_ball">08</span><span class="red_ball">09</span><span class="red_ball">10</span><span class="red_ball">11</span><span class="red_ball">12</span><span class="red_ball active">13</span><span class="red_ball active">14</span><span class="red_ball">15</span><span class="red_ball">16</span><span class="red_ball active">17</span><span class="red_ball">18</span><span class="red_ball">19</span><span class="red_ball">20</span><span class="red_ball">21</span><span class="red_ball">22</span><span class="red_ball">23</span><span class="red_ball">24</span><span class="red_ball">25</span><span class="red_ball active">26</span><span class="red_ball">27</span><span class="red_ball active">28</span><span class="red_ball">29</span><span class="red_ball">30</span><span class="red_ball">31</span><span class="red_ball">32</span><span class="red_ball active">33</span>
+        </div>
+    </div>
+    <div class="select_ball">
+        <p class="blue_top">蓝球：<span><span class="geshu">个&nbsp;&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></span><select class="blueBall form-control mr10 col-xs-2" name="sel" id="sel_blue">
+                <option value="1" selected="selected">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select></span>
+            <button class="btn btn-primary" id="jx_blue_ball">机选蓝球</button>
+            <a href="javascript:void%20(0)" id="empty_blue_ball">清空</a>
+        </p>
+        <div class="blue_cont">
+            <span class="blue_ball">01</span><span class="blue_ball">02</span><span class="blue_ball">03</span><span class="blue_ball active">04</span><span class="blue_ball">05</span><span class="blue_ball">06</span><span class="blue_ball">07</span><span class="blue_ball">08</span><span class="blue_ball">09</span><span class="blue_ball">10</span><span class="blue_ball active">11</span><span class="blue_ball">12</span><span class="blue_ball">13</span><span class="blue_ball">14</span><span class="blue_ball">15</span><span class="blue_ball">16</span>
+        </div>
+    </div>
+    <div id="tost" style="display: none;">
+
+    </div>
+</div>
+<script src="./jquery_002.js"></script>
+<script src="./jquery.js"></script>
+<script src="./bootstrap.js"></script>
+<script src="./respond.js"></script>
+<script src="./alertify.js"></script>
+<script src="./matrix.js"></script>
+<script>
+    matrixFilter.init();
+</script>
+
+</body></html>
